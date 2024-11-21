@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100vh; 
     background-color: hsl(var(--background)); 
     font-family: __Space_Grotesk_587f35,__Space_Grotesk_Fallback_587f35;
