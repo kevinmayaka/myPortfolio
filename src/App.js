@@ -4,6 +4,7 @@ import Home from "./Home";
 import Navbar from "./Navbar"
 import Experience from "./Experience";
 import Skills from "./Skills";
+import ContactMe from "./ContactMe";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Home />
       <Experience />
       <Skills />
-    
+      <ContactMe />
     </div>
   );
 }
