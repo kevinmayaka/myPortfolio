@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import "./ContactMe.css"
 
 export default function ContactMe() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -36,18 +37,22 @@ export default function ContactMe() {
     };
 
     return (
-        <div>
-            <h3>Contact Me</h3>
-            <form onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" required />
-                <label>Email</label>
-                <input type="email" name="user_email" required />
-                <label>Message</label>
-                <textarea name="message" required />
-                <input type="submit" value="Send" disabled={isSubmitting} />
-                {stateMessage && <p>{stateMessage}</p>}
-            </form>
-        </div>
+        <div className="ContactMe-container">
+      <h3 className="contactme-header">Contact Me</h3>
+      <form onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" required placeholder="John Doe" />
+        <label>Email</label>
+        <input type="email" name="user_email" required placeholder="email@gmail.com" />
+        <label>Message</label>
+        <textarea name="message" required placeholder="Please type your message here"></textarea>
+        <input
+          type="submit"
+          value={isSubmitting ? "Sending..." : "Send"}
+          disabled={isSubmitting}
+        />
+        {stateMessage && <p>{stateMessage}</p>}
+      </form>
+    </div>
     );
 }
