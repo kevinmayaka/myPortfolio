@@ -1,9 +1,12 @@
-body {
-    margin: 0;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    body {
+    margin-left: 400px;
     padding: 0;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     height: 100vh; 
     background-color: hsl(var(--background)); 
     font-family: __Space_Grotesk_587f35,__Space_Grotesk_Fallback_587f35;
@@ -16,10 +19,15 @@ nav {
     width: 500px;
     background-color: #333;
     padding: 20px;
-    border-radius: 20px;
+    border-style: solid;
+    border-color: #777;
+    border-radius: 50px;
     color: white;
-    margin: O auto;
+    margin: 25px 400px 25px;
     position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .menu-container {
@@ -33,7 +41,7 @@ nav {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .nav-button:hover {
@@ -46,7 +54,7 @@ nav {
     top: 100%; /* Position below the button */
     left: 0;
     background-color: #444;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -59,10 +67,11 @@ nav {
     background-color: transparent;
     color: white;
     border: none;
-    text-align: left;
+    text-align: center;
     padding: 8px 12px;
     cursor: pointer;
     font-size: 14px;
+    border-radius: 50px;
     text-decoration: none;
 }
 

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import './Home.css'
 
 export default function Home() {
     const contactMeRef = useRef(null);
@@ -13,13 +14,19 @@ export default function Home() {
     return (
         <>
             <section>
-                <p>Hello. I am Kevin, a passionate software engineer</p>
-                <p>React.js, Vue.js, Flask developer</p>
+                <p className="intro">Hello. I am Kevin, a passionate software engineer</p>
+                <div className="carousel-container">
+                    <p className=" carousel-text">React.js, Vue.js, Flask developer</p>
+                </div>
             </section>
-            <section>
-                <button onClick={handleDownloadCV}>Download CV</button>
-                <button onClick={handleContactMe}>Contact Me</button>
-            </section>
+            <div className="buttons-section">
+                <button
+                    className="Download-button"
+                    onClick={handleDownloadCV}>Download CV</button>
+                <button
+                    className="ContactMe-button"
+                    onClick={handleContactMe}>Contact Me</button>
+            </div>
         </>
     );
 }

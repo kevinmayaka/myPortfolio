@@ -15,8 +15,7 @@ export default function Navbar() {
 
     return (
         <nav>
-            {/* Navigation dropdown */}
-            <div
+           <div
                 className="menu-container"
                 onMouseEnter={() => setShowNavMenu(true)}
                 onMouseLeave={() => setShowNavMenu(false)}

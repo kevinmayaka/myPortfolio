@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import { Helmet } from 'react-helmet';
 import "./App.css";
 import Home from "./Home";
 import Navbar from "./Navbar"
@@ -9,6 +10,7 @@ import ContactMe from "./ContactMe";
 function App() {
   return (
     <div className="App">
+      <Helmet bodyAttributes={{ style: 'background-color : #333' }} />
       <Navbar />
       <Home />
       <Experience />
