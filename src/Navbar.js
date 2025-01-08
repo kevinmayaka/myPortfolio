@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import "./Navbar.css"
 
 export default function Navbar() {
@@ -23,18 +24,18 @@ export default function Navbar() {
                 <button className="nav-button">Navigation</button>
                 {showNavMenu && (
                     <div className="dropdown-menu">
-                        <button onClick={() => handleNavigation("landing-page")}>
+                         <Link to="/" className="dropdown-item">
                             Landing Page
-                        </button>
-                        <button onClick={() => handleNavigation("experience")}>
+                        </Link>
+                        <Link to="./experience" className="dropdown-item">
                             Experience
-                        </button>
-                        <button onClick={() => handleNavigation("skills")}>
+                        </Link>
+                        <Link to="./skills" className="dropdown-item">
                             Skills
-                        </button>
-                        <button onClick={() => handleNavigation("contact-me")}>
+                        </Link>
+                        <Link to="./contactme" className="dropdown-item">
                             Contact Me
-                        </button>
+                        </Link>
                     </div>
                 )}
             </div>

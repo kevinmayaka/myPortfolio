@@ -15,7 +15,7 @@
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  background: linear-gradient(115deg, rgb(25, 183, 189) 10%, #333 90%);
 }
 
 .contactme-header {
@@ -23,7 +23,7 @@
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
-  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+  background: -webkit-linear-gradient(right, rgb(25, 183, 189),#333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -57,11 +57,11 @@
 
 .ContactMe-container form input:focus,
 .ContactMe-container form textarea:focus {
-  border-color: #3498db;
+  border-color: rgb(25, 183, 189);
 }
 
 .ContactMe-container form input[type="submit"] {
-  background: linear-gradient(115deg, #56d8e4, #9f01ea);
+  background: linear-gradient(115deg, rgb(25, 183, 189), #333);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -73,12 +73,12 @@
 }
 
 .ContactMe-container form input[type="submit"]:hover {
-  background: linear-gradient(115deg, #9f01ea, #56d8e4);
+  background: linear-gradient(115deg, #333, rgb(25, 183, 189));
 }
 
 .ContactMe-container form p {
   font-size: 14px;
-  color: #3498db;
+  color: rgb(25, 183, 189);
   margin-top: 10px;
   text-align: center;
 }

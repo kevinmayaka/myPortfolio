@@ -32,7 +32,7 @@ export default function Skills() {
 
     return (
         <div className="skills-container">
-            <h2 className="skills-header">My Development Skills</h2>
+            <h2>Skills</h2>
             <div className="skills-grid">
                 {skills.map((skill, index) => (
                     <div className="skill-card" key={index}>

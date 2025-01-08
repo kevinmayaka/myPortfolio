@@ -1,16 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     margin: 0px;
 }
 .skills-container {
-    max-width: 120px;
-    margin: 50px auto;
+    max-width: 100px;
+    margin: 50px, 10px;
     text-align: center;
     padding: 20px;
+    /* border-top: #f4f4f4; */
 }
-.skills-header {
+.skills-container h2 {
+    text-align: center;
+    justify-content: center;
     font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
+    color: whitesmoke;
+    margin: 20px
 }
 .skills-grid {
     display: grid;
@@ -40,5 +47,6 @@ body {
 .skill-name {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: rgb(25, 183, 189);
+    text-align: center;
 }

@@ -1,72 +1,82 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .body {
-    height: 600px; /* Set the height of the body to 600px */
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Centers the content vertically */
-    overflow: hidden; /* Prevents overflow outside the 600px height */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  overflow: hidden; 
 }
-
+.homepage{
+  height: 500px;
+}
+.first-part{
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 .intro {
-    text-align: center;
-    font-size: 18px;
-    color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  color: whitesmoke;
+  margin-top: 100px, 0px;
 }
 
 .carousel-container {
-    width: 100%;
-    height: 100%; /* Ensure the carousel container takes full height of the parent */
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%; /* Ensure the carousel container takes full height of the parent */
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .carousel-text {
-    display: inline-block;
-    animation: scroll 10s ease-in-out forwards; /* Apply ease-in-out for smoother stopping */
-    font-size: 30px;
-    font-weight: bold;
-    color: whitesmoke;
-    padding: 10px;
+  display: inline-block;
+  animation: scroll 10s ease-in-out forwards; /* Apply ease-in-out for smoother stopping */
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(25, 183, 189);
+  padding: 10px;
 }
-.buttons-section{
-     margin: 40px 400px 40px;
+.buttons-section {
+  margin: 40px 400px 40px;
+  display: flex;
+  justify-content: center;
 }
 .Download-button {
-    background-color: #555;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 50px;
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-right: 20px;
 }
 
 .ContactMe-button {
-    background-color: grey;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 50px;
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(100%); /* Start offscreen */
-    }
-    50% {
-        transform: translateX(50%); /* Move halfway, close to center */
-    }
-    100% {
-        transform: translateX(0); /* End at the center */
-    }
+  0% {
+    transform: translateX(100%); /* Start offscreen */
+  }
+  50% {
+    transform: translateX(50%); /* Move halfway, close to center */
+  }
+  100% {
+    transform: translateX(0); /* End at the center */
+  }
 }

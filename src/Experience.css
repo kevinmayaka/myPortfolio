@@ -1,24 +1,33 @@
-body {
-    font-family: 'Arial', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
     margin: 0px;
     padding: 0px;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    /* align-items: self-start; */
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: left;
 }
 .experience-container {
     max-width: 800px;
-    margin: 50px, auto;
+    margin-top: 50px;
+    margin-left: 200px;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.experience-body{
+    margin-left: 80px;
 }
 .section-header{
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
-    text-align: left;
+    color: whitesmoke;
+    /* text-align: left; */
     margin-bottom: 40px;
-    border-bottom: 2px, solid #333;
+    border-bottom: 2px;
     padding-bottom: 10px;
 }
 .experience-section {
@@ -26,18 +35,26 @@ body {
 }
 .experience-section h3 {
     font-size: 1.5rem;
-    color: #007bff;
+    color: whitesmoke;
     margin-bottom: 10px;
+}
+.experience-section h4 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin: 10px;
 }
 .experience-section p {
     font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: whitesmoke;
     margin-bottom: 10px;
 }
 .experience-section p:first-of-type {
     font-weight: bold;
-    color: #333;
+    color:whitesmoke;
     margin-top: 10px;
 }
 @media screen and (max-width: 768px){

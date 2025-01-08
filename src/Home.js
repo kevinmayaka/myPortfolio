@@ -12,13 +12,13 @@ export default function Home() {
     };
 
     return (
-        <>
-            <section>
+        <div className="homepage">
+            <div className="first-part">
                 <p className="intro">Hello. I am Kevin, a passionate software engineer</p>
                 <div className="carousel-container">
-                    <p className=" carousel-text">React.js, Vue.js, Flask developer</p>
+                    <p className=" carousel-text">React.js, Vue.js, Python, Flask developer</p>
                 </div>
-            </section>
+            </div>
             <div className="buttons-section">
                 <button
                     className="Download-button"
@@ -27,6 +27,6 @@ export default function Home() {
                     className="ContactMe-button"
                     onClick={handleContactMe}>Contact Me</button>
             </div>
-        </>
+        </div>
     );
 }
