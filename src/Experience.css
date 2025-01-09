@@ -1,73 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
 }
 body {
-    /* align-items: self-start; */
-    margin-top: 20px;
-    margin-left: 20px;
-    justify-content: left;
+  /* align-items: self-start; */
+  margin-top: 20px;
+  margin-left: 20px;
+  /* justify-content: left; */
 }
 .experience-container {
-    max-width: 800px;
-    margin-top: 50px;
-    margin-left: 200px;
-    padding: 20px;
-    
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: 200px;
+  padding: 20px;
 }
-.experience-body{
-    margin-left: 80px;
+.experience-body {
+  margin-left: 80px;
 }
-.section-header{
-    font-size: 2rem;
-    font-weight: bold;
-    color: whitesmoke;
-    /* text-align: left; */
-    margin-bottom: 40px;
-    border-bottom: 2px;
-    padding-bottom: 10px;
+.section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  /* text-align: left; */
+  margin-bottom: 40px;
+  border-bottom: 2px;
+  padding-bottom: 10px;
 }
 .experience-section {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .experience-section h3 {
-    font-size: 1.5rem;
-    color: whitesmoke;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-bottom: 10px;
 }
 .experience-section h4 {
-    font-size: 1.3rem;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    margin: 10px;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  margin: 10px;
 }
 .experience-section p {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-    color: whitesmoke;
-    margin-bottom: 10px;
+  font-size: 1rem;
+  /* font-family: P, Helvetica, sans-serif; */
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+  font-size: 16px;
+  color: whitesmoke;
+  margin-bottom: 10px;
 }
 .experience-section p:first-of-type {
-    font-weight: bold;
-    color:whitesmoke;
-    margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: 10px;
 }
-@media screen and (max-width: 768px){
-    .experience-container{
-        padding: 15px;
-    }
-    .section-header {
-        font-size: 1.8rem;
-    }
-    .experience-section h3 {
-        font-size: 1.3rem;
-    }
-    .experience-section p {
-        font-size: 0.9rem;
-    }
+@media screen and (max-width: 768px) {
+  .experience-container {
+    padding: 15px;
+  }
+  .section-header {
+    font-size: 1.8rem;
+  }
+  .experience-section h3 {
+    font-size: 1.3rem;
+  }
+  .experience-section p {
+    font-size: 0.9rem;
+  }
 }
