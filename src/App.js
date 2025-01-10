@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";

@@ -7,6 +7,7 @@ export default function Navbar() {
     const [showSocialMenu, setShowSocialMenu] = useState(false);
 
     // Scroll to the specific section
+    // eslint-disable-next-line no-unused-vars
     const handleNavigation = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
