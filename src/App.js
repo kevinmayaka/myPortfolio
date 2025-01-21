@@ -109,9 +109,9 @@ function App() {
                 <style>
                     {`
                         body {
-                            background-color: #333;
-                            color: #fff;
-                            font-family: 'Poppins', sans-serif;
+                            background-color: #333 !important;
+                            color: #fff !important;
+                            font-family: 'Poppins', sans-serif !important;
                         }
                     `}
                 </style>
